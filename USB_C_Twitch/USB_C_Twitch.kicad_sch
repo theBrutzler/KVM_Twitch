@@ -8815,7 +8815,7 @@
 		(uuid "498a99cb-b3b6-4a71-9dda-14aa9c71af0b")
 	)
 	(label "A_SSRX+"
-		(at 119.38 116.84 180)
+		(at 119.38 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8935,7 +8935,7 @@
 		(uuid "636488f3-ea25-4282-9224-f504fc43c074")
 	)
 	(label "B_SSRX-"
-		(at 119.38 149.86 180)
+		(at 119.38 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9095,7 +9095,7 @@
 		(uuid "8b655948-84e2-4fc9-914e-f3df2a93612d")
 	)
 	(label "C_SSTX+"
-		(at 119.38 177.8 180)
+		(at 119.38 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9105,7 +9105,7 @@
 		(uuid "8d301407-511b-40f8-a42b-2c1fcb27fc73")
 	)
 	(label "C_SSTX-"
-		(at 119.38 175.26 180)
+		(at 119.38 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9295,7 +9295,7 @@
 		(uuid "ade61025-38b9-40c3-a056-6765100405c6")
 	)
 	(label "A_SSTX+"
-		(at 119.38 106.68 180)
+		(at 119.38 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9425,7 +9425,7 @@
 		(uuid "bef5d115-423e-45ec-af4a-08310eaab952")
 	)
 	(label "B_SSTX+"
-		(at 119.38 142.24 180)
+		(at 119.38 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9435,7 +9435,7 @@
 		(uuid "bf40a9d8-1f00-421e-b3cd-dd555649ac5d")
 	)
 	(label "A_SSRX-"
-		(at 119.38 114.3 180)
+		(at 119.38 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9515,7 +9515,7 @@
 		(uuid "cb47cf7c-fcdd-49e3-91f0-157b1a797e48")
 	)
 	(label "B_SSTX-"
-		(at 119.38 139.7 180)
+		(at 119.38 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9565,7 +9565,7 @@
 		(uuid "d023a81f-a0f7-4bef-bbdf-8c0f388c9f18")
 	)
 	(label "C_SSRX-"
-		(at 119.38 185.42 180)
+		(at 119.38 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9625,7 +9625,7 @@
 		(uuid "d8f132a3-1eef-43ad-b14c-d5de281c211f")
 	)
 	(label "C_SSRX+"
-		(at 119.38 187.96 180)
+		(at 119.38 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9695,7 +9695,7 @@
 		(uuid "ec90931c-8353-46cb-b0dd-a025c2813711")
 	)
 	(label "B_SSRX+"
-		(at 119.38 152.4 180)
+		(at 119.38 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9805,7 +9805,7 @@
 		(uuid "f4226c4a-dea8-4a4c-986c-42f74b549f79")
 	)
 	(label "A_SSTX-"
-		(at 119.38 104.14 180)
+		(at 119.38 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12002,7 +12002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 91.44 61.214 0)
 			(effects
 				(font
@@ -13023,7 +13023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 83.82 61.214 0)
 			(effects
 				(font
@@ -13414,7 +13414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 91.44 80.264 0)
 			(effects
 				(font
@@ -14637,7 +14637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 91.44 40.894 0)
 			(effects
 				(font
@@ -17221,7 +17221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 83.82 80.264 0)
 			(effects
 				(font
@@ -19330,7 +19330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "40K"
 			(at 83.82 40.894 0)
 			(effects
 				(font
