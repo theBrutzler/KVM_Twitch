@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -672,7 +688,7 @@
         "uuid": "dc229072-24b4-43c8-b91f-e7db21590dc5"
       }
     ],
-    "used_designators": "C28,#PWR81",
+    "used_designators": "D4-5,#PWR3,#PWR6,#PWR9,#PWR17,#PWR29,#PWR31-33,#PWR36-39,#PWR42-57,#PWR82-109,C29-50,Q3-4,J2-3,R12,R14-21,R47-72,U6-7,U13-18,USB2-3",
     "variants": []
   },
   "sheets": [
@@ -681,8 +697,16 @@
       "USB_PD_PLUS_C"
     ],
     [
+      "ce440652-8abb-43f9-90a6-4d0613a82a69",
+      "USB_PD2"
+    ],
+    [
       "5dcbd05b-b508-4a41-bbc9-03ae250f4faf",
       "USB_PD1"
+    ],
+    [
+      "78c12fed-0488-4a52-9624-e29b3b05d9b8",
+      "USB_PD3"
     ]
   ],
   "text_variables": {},
