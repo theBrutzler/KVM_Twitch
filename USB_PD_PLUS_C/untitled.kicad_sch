@@ -2251,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 83.82) (xy 40.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d53bfd-fafa-405e-9e8f-1ff7a21f64a4")
+	)
+	(wire
+		(pts
 			(xy 265.43 69.85) (xy 267.97 69.85)
 		)
 		(stroke
@@ -3372,7 +3382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.4552 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3405,7 +3415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3588,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 61.2648 0)
 			(hide yes)
 			(show_name no)
@@ -3621,7 +3631,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 69.85 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +3731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 16.2052 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3754,7 +3764,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 15.24 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5075,7 +5085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +5118,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 128.27 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5605,8 +5615,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 40.64 82.804 90)
+		(property "Value" "107K"
+			(at 40.64 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5649,7 +5659,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3017514"
+		(property "LCSC" "C25743"
 			(at 40.64 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +5759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.8348 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 177.8 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5844,139 +5854,6 @@
 				)
 				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5/ce440652-8abb-43f9-90a6-4d0613a82a69"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 40.64 87.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8227ef1d-a63f-4e63-8d36-9b33c1675fd1")
-		(property "Reference" "R48"
-			(at 39.624 86.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8K"
-			(at 40.64 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 42.418 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2960789"
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2960789"
-			(at 40.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55ba97db-5d21-423b-acd7-ea418e12c0e2")
-		)
-		(pin "2"
-			(uuid "30258a00-0763-4f83-89fe-c8036d4c0aa2")
-		)
-		(instances
-			(project "USB_PD_PLUS_C"
-				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5/5dcbd05b-b508-4a41-bbc9-03ae250f4faf"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5/78c12fed-0488-4a52-9624-e29b3b05d9b8"
-					(reference "R61")
-					(unit 1)
-				)
-				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5/ce440652-8abb-43f9-90a6-4d0613a82a69"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6148,7 +6025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 61.9252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6181,7 +6058,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 60.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6499,7 +6376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.9448 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6532,7 +6409,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 168.91 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7330,7 +7207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.4548 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7363,7 +7240,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)

@@ -3574,6 +3574,12 @@
 		(uuid "2c140f32-6061-4a95-8396-33b188684af4")
 	)
 	(junction
+		(at 20.32 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fbdac77-7ac1-4153-9207-b816101ed20d")
+	)
+	(junction
 		(at 267.97 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,6 +3616,12 @@
 		(uuid "4ac42834-fa20-47cf-b9d8-cde88c5bc366")
 	)
 	(junction
+		(at 90.17 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba0f20d-7ee3-44c7-a5f3-bcdcd0722b72")
+	)
+	(junction
 		(at 95.25 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3628,10 +3640,10 @@
 		(uuid "552d7beb-4522-4b26-9ccb-07493f8ef8e5")
 	)
 	(junction
-		(at 90.17 148.59)
+		(at 20.32 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6401b750-89b5-4f72-b205-0303d1432fb4")
+		(uuid "7191c717-bcba-4f0b-9f81-d94967383fb1")
 	)
 	(junction
 		(at 267.97 139.7)
@@ -3752,12 +3764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da7ab249-21ec-4653-8c42-0bafc332150f")
-	)
-	(junction
-		(at 17.78 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e00f6ec4-3b69-4309-9b44-0a5495a52a17")
 	)
 	(junction
 		(at 43.18 157.48)
@@ -4207,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 162.56) (xy 20.32 146.05)
+			(xy 22.86 162.56) (xy 22.86 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4417,6 +4423,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 153.67) (xy 20.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c5d22b-97e5-4a46-aa2b-4521d2327f28")
+	)
+	(wire
+		(pts
 			(xy 26.67 90.17) (xy 26.67 93.98)
 		)
 		(stroke
@@ -4447,13 +4463,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 146.05) (xy 104.14 146.05)
+			(xy 22.86 146.05) (xy 104.14 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d9abe4b-abe7-412a-ac83-0059ff941b1c")
+	)
+	(wire
+		(pts
+			(xy 15.24 156.21) (xy 15.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e503314-3042-467a-bf67-5bdf2315d976")
 	)
 	(wire
 		(pts
@@ -4517,16 +4543,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 181.61) (xy 46.99 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4800239f-a3d0-421a-a32d-0c0c235b08d2")
-	)
-	(wire
-		(pts
 			(xy 62.23 34.29) (xy 54.61 34.29)
 		)
 		(stroke
@@ -4577,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 181.61) (xy 36.83 181.61)
+			(xy 36.83 181.61) (xy 52.07 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4987,16 +5003,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 162.56) (xy 20.32 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762d6606-345e-4833-90b4-26780ce49b5e")
-	)
-	(wire
-		(pts
 			(xy 119.38 50.8) (xy 109.22 50.8)
 		)
 		(stroke
@@ -5137,7 +5143,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 148.59) (xy 90.17 148.59)
+			(xy 20.32 148.59) (xy 90.17 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5263,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 165.1) (xy 17.78 167.64)
+			(xy 20.32 165.1) (xy 20.32 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5727,6 +5733,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 153.67) (xy 20.32 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f85def-9967-4001-8980-735b85b40378")
+	)
+	(wire
+		(pts
 			(xy 17.78 130.81) (xy 27.94 130.81)
 		)
 		(stroke
@@ -6047,7 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 148.59) (xy 17.78 165.1)
+			(xy 20.32 148.59) (xy 20.32 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6057,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 167.64) (xy 22.86 167.64)
+			(xy 20.32 167.64) (xy 22.86 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6277,7 +6293,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 165.1) (xy 17.78 165.1)
+			(xy 22.86 165.1) (xy 20.32 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7804,131 +7820,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff8eb08c-7116-49c1-a3fa-8ad9e370ac27")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 43.18 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02d8c158-c964-473c-b9e1-61869c3b4f48")
-		(property "Reference" "R2"
-			(at 44.196 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8K"
-			(at 44.704 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 43.18 183.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2960789"
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2960789"
-			(at 43.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c2b4fb9-562b-4852-a5c2-c8ebe979e375")
-		)
-		(pin "2"
-			(uuid "fc1efdd6-2e49-4748-b715-fac8de9ff422")
-		)
-		(instances
-			(project "USB_PD_PLUS_C"
-				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "EASYEDA:HXTYPE-C24PQCHT")
@@ -11254,7 +11145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 69.85 166.6748 0)
 			(hide yes)
 			(show_name no)
@@ -11287,7 +11178,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 66.04 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -11916,7 +11807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "107K"
 			(at 53.086 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11993,7 +11884,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3017514"
+		(property "LCSC Part" "C25743"
 			(at 55.88 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13298,6 +13189,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 15.24 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8321d762-0d39-4b40-b964-4be8d95a765b")
+		(property "Reference" "#PWR016"
+			(at 15.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 15.24 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 15.24 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d567bfc-5fa4-4996-9d88-45a3c8621e96")
+		)
+		(instances
+			(project "USB_PD_PLUS_C"
+				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 240.03 69.85 90)
 		(unit 1)
@@ -13883,6 +13851,131 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 15.24 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "924de407-fffe-41d2-9b0f-502afcc2a5f5")
+		(property "Reference" "C44"
+			(at 15.748 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 15.748 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 16.2052 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5142567"
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5137636"
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 15.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c2f15df-f888-4245-8024-cb9b7dd16926")
+		)
+		(pin "1"
+			(uuid "e214ecd1-0fe5-4c16-822c-137d06a2fb47")
+		)
+		(instances
+			(project "USB_PD_PLUS_C"
+				(path "/dc229072-24b4-43c8-b91f-e7db21590dc5"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 46.99 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -13914,7 +14007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 47.9552 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13947,7 +14040,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5137636"
+		(property "LCSC" "C5142567"
 			(at 46.99 161.29 0)
 			(hide yes)
 			(show_name no)
